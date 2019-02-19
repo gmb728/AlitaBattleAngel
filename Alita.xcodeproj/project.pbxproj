@@ -12,6 +12,8 @@
 		DDEE56A8221B8F5C002CB71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEE56A6221B8F5C002CB71E /* Main.storyboard */; };
 		DDEE56AA221B8F60002CB71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEE56A9221B8F60002CB71E /* Assets.xcassets */; };
 		DDEE56AD221B8F60002CB71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEE56AB221B8F60002CB71E /* LaunchScreen.storyboard */; };
+		DDEE56B7221BA57A002CB71E /* SKScratchCardMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE56B6221BA57A002CB71E /* SKScratchCardMaskView.swift */; };
+		DDEE56B9221BA5C6002CB71E /* SKScratchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE56B8221BA5C6002CB71E /* SKScratchCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DDEE56A9221B8F60002CB71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDEE56AC221B8F60002CB71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDEE56AE221B8F60002CB71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEE56B6221BA57A002CB71E /* SKScratchCardMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKScratchCardMaskView.swift; sourceTree = "<group>"; };
+		DDEE56B8221BA5C6002CB71E /* SKScratchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKScratchCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				DDEE56A2221B8F5C002CB71E /* AppDelegate.swift */,
 				DDEE56A4221B8F5C002CB71E /* ViewController.swift */,
+				DDEE56B6221BA57A002CB71E /* SKScratchCardMaskView.swift */,
 				DDEE56A6221B8F5C002CB71E /* Main.storyboard */,
 				DDEE56A9221B8F60002CB71E /* Assets.xcassets */,
+				DDEE56B8221BA5C6002CB71E /* SKScratchCardView.swift */,
 				DDEE56AB221B8F60002CB71E /* LaunchScreen.storyboard */,
 				DDEE56AE221B8F60002CB71E /* Info.plist */,
 			);
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDEE56A5221B8F5C002CB71E /* ViewController.swift in Sources */,
+				DDEE56B9221BA5C6002CB71E /* SKScratchCardView.swift in Sources */,
 				DDEE56A3221B8F5C002CB71E /* AppDelegate.swift in Sources */,
+				DDEE56B7221BA57A002CB71E /* SKScratchCardMaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
